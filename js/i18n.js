@@ -169,7 +169,7 @@ const translations = {
       "If you submit the sales form, we use the name, organization, and message you provide to follow up about Hostera. Do not send sensitive personal data through that form. We keep that information only as long as needed to respond.",
         "terms.h.privacy": "7. Privacy and personal data",
     "terms.p.privacy":
-      "You can read this site without creating an account. The only personal information we receive is what you type into the sales form: your name, hotel or group, and message. The site saves your language choice in your browser and loads its fonts from a public content delivery network, which receives your IP address as any web request does. We do not use advertising cookies. Under Peruvian Law 29733 on personal data protection, you may ask us to access, correct, or delete your information through the Talk to sales form.",
+      "You can read this site without creating an account. The only personal information we receive is what you type into the sales form: your name, hotel or group, and message. The site saves your language choice in your browser and loads its fonts and animation scripts from a public content delivery network, which receives your IP address as any web request does. We do not use advertising cookies. Under Peruvian Law 29733 on personal data protection, you may ask us to access, correct, or delete your information through the Talk to sales form.",
     "terms.h.ethics": "8. Ethics and professional responsibility",
     "terms.p.ethics":
       "Grafo Verde builds Hostera following the ACM/IEEE-CS Software Engineering Code of Ethics and Professional Practice and the Code of Ethics of the Colegio de Ingenieros del Perú (CIP).",
@@ -353,7 +353,7 @@ const translations = {
       "Si envías el formulario de ventas, usamos el nombre, la organización y el mensaje para dar seguimiento sobre Hostera. No envíes datos personales sensibles por ese formulario. Conservamos esa información solo el tiempo necesario para responder.",
         "terms.h.privacy": "7. Privacidad y datos personales",
     "terms.p.privacy":
-      "Puedes leer este sitio sin crear una cuenta. La única información personal que recibimos es la que escribes en el formulario de ventas: tu nombre, tu hotel o grupo y tu mensaje. El sitio guarda tu elección de idioma en tu navegador y carga sus tipografías desde una red pública de distribución de contenido, que recibe tu dirección IP como cualquier solicitud web. No usamos cookies publicitarias. Según la Ley N.º 29733, Ley de Protección de Datos Personales del Perú, puedes pedirnos acceder a tu información, corregirla o eliminarla con el formulario Hablar con ventas.",
+      "Puedes leer este sitio sin crear una cuenta. La única información personal que recibimos es la que escribes en el formulario de ventas: tu nombre, tu hotel o grupo y tu mensaje. El sitio guarda tu elección de idioma en tu navegador y carga sus tipografías y scripts de animación desde una red pública de distribución de contenido, que recibe tu dirección IP como cualquier solicitud web. No usamos cookies publicitarias. Según la Ley N.º 29733, Ley de Protección de Datos Personales del Perú, puedes pedirnos acceder a tu información, corregirla o eliminarla con el formulario Hablar con ventas.",
     "terms.h.ethics": "8. Ética y responsabilidad profesional",
     "terms.p.ethics":
       "Grafo Verde desarrolla Hostera siguiendo el Código de Ética y Práctica Profesional de Ingeniería de Software de ACM/IEEE-CS y el Código de Ética del Colegio de Ingenieros del Perú (CIP).",
