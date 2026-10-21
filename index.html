@@ -51,8 +51,10 @@
     <link rel="stylesheet" href="css/plan-professional.css" />
     <link rel="stylesheet" href="css/plan-enterprise.css" />
     <link rel="stylesheet" href="css/discover.css" />
+    <link rel="stylesheet" href="css/tour.css" />
     <link rel="stylesheet" href="css/team.css" />
     <link rel="stylesheet" href="css/support.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/closing.css" />
     <link rel="stylesheet" href="css/footer.css" />
   </head>
@@ -71,6 +73,7 @@
           <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
           <a href="#product" data-i18n="nav.product">Product</a>
           <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
         </nav>
         <p class="lang site-header__lang">
           <button type="button" data-lang="en" lang="en" aria-current="page">EN</button>
@@ -441,16 +444,46 @@
                 Reservations, rooms, inventory and access stay connected so your team can work with
                 clarity every day.
               </p>
+              <a class="discover__demo" href="https://hostera-f4116.web.app/">
+                <span data-i18n="product.demo">Try the live demo, no sign-up needed</span>
+                <svg class="discover__demo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  <path d="m12 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
             </div>
-            <div class="media-card media-card--tall">
-              <div class="media-card__play">
-                <span class="media-card__play-icon" aria-hidden="true">
-                  <svg width="30" height="30" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" fill="currentColor" />
-                  </svg>
-                </span>
-                <span class="media-card__play-label" data-i18n="product.play">Discover Hostera</span>
-                <span class="media-card__play-hint" data-i18n="product.hint">See how it works in daily hotel operations</span>
+            <div class="tour" data-tour>
+              <div class="tour__tabs" role="tablist" aria-label="Product areas" data-i18n-aria="tour.label">
+                <button class="tour__tab" type="button" role="tab" id="tour-tab-bookings" aria-controls="tour-panel-bookings" aria-selected="true">
+                  <span class="tour__tab-title" data-i18n="tour.bookings.title">Bookings</span>
+                  <span class="tour__tab-body" data-i18n="tour.bookings.body">Find any stay by guest or code and see what is still unpaid.</span>
+                </button>
+                <button class="tour__tab" type="button" role="tab" id="tour-tab-rooms" aria-controls="tour-panel-rooms" aria-selected="false" tabindex="-1">
+                  <span class="tour__tab-title" data-i18n="tour.rooms.title">Rooms</span>
+                  <span class="tour__tab-body" data-i18n="tour.rooms.body">See which rooms are free, booked or out of service for the week.</span>
+                </button>
+                <button class="tour__tab" type="button" role="tab" id="tour-tab-inventory" aria-controls="tour-panel-inventory" aria-selected="false" tabindex="-1">
+                  <span class="tour__tab-title" data-i18n="tour.inventory.title">Inventory</span>
+                  <span class="tour__tab-body" data-i18n="tour.inventory.body">Know what is running low before housekeeping runs out.</span>
+                </button>
+                <button class="tour__tab" type="button" role="tab" id="tour-tab-access" aria-controls="tour-panel-access" aria-selected="false" tabindex="-1">
+                  <span class="tour__tab-title" data-i18n="tour.access.title">Access control</span>
+                  <span class="tour__tab-body" data-i18n="tour.access.body">Issue, replace and revoke RFID key cards for guests and staff.</span>
+                </button>
+              </div>
+              <div class="tour__frame">
+                <figure class="tour__panel" id="tour-panel-bookings" role="tabpanel" aria-labelledby="tour-tab-bookings">
+                  <img src="public/screens/app-bookings.webp" width="1440" height="900" loading="lazy" alt="Hostera bookings list with guests, stay dates, rooms, booking status and payment status" data-i18n-alt="tour.bookings.alt" />
+                </figure>
+                <figure class="tour__panel" id="tour-panel-rooms" role="tabpanel" aria-labelledby="tour-tab-rooms" hidden>
+                  <img src="public/screens/app-rooms.webp" width="1440" height="900" loading="lazy" alt="Hostera room availability grid for the next seven days" data-i18n-alt="tour.rooms.alt" />
+                </figure>
+                <figure class="tour__panel" id="tour-panel-inventory" role="tabpanel" aria-labelledby="tour-tab-inventory" hidden>
+                  <img src="public/screens/app-inventory.webp" width="1440" height="900" loading="lazy" alt="Hostera inventory list with stock on hand and low-stock warnings" data-i18n-alt="tour.inventory.alt" />
+                </figure>
+                <figure class="tour__panel" id="tour-panel-access" role="tabpanel" aria-labelledby="tour-tab-access" hidden>
+                  <img src="public/screens/app-access.webp" width="1440" height="900" loading="lazy" alt="Hostera access control list of RFID credentials with their validity and status" data-i18n-alt="tour.access.alt" />
+                </figure>
               </div>
             </div>
           </div>
@@ -552,6 +585,42 @@
           </div>
         </section>
 
+        <section class="contact section-target" id="contact" aria-labelledby="contact-heading" tabindex="-1">
+          <div class="contact__inner">
+            <div class="contact__copy">
+              <h2 class="contact__title" id="contact-heading" data-i18n="contact.title">Talk to the people building Hostera.</h2>
+              <p class="contact__lede" data-i18n="contact.lede">
+                Tell us how your hotel works today. We answer every message and use it to shape what we build next.
+              </p>
+            </div>
+            <ul class="contact__channels">
+              <li>
+                <a class="contact-card" href="sales.html">
+                  <span class="contact-card__icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24">
+                      <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z" fill="currentColor" />
+                    </svg>
+                  </span>
+                  <span class="contact-card__label" data-i18n="contact.form.label">Send us a message</span>
+                  <span class="contact-card__value" data-i18n="contact.form.value">Contact form</span>
+                </a>
+              </li>
+              <li>
+                <a class="contact-card" href="https://github.com/1ASI0730-2620-8150-GrafoVerde" rel="noopener" target="_blank">
+                  <span class="contact-card__icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.4 9.4 0 0 1 12 6.9c.85 0 1.7.12 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.1 10.1 0 0 0 22 12.22C22 6.58 17.52 2 12 2z" fill="currentColor" />
+                    </svg>
+                  </span>
+                  <span class="contact-card__label" data-i18n="contact.github.label">Follow the project</span>
+                  <span class="contact-card__value">GitHub · Grafo Verde</span>
+                  <span class="visually-hidden" data-i18n="contact.newTab">(opens in a new tab)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         <section class="closing" aria-labelledby="closing-heading">
           <div class="closing__panel">
             <div class="closing__copy">
@@ -598,6 +667,7 @@
             <a href="#product" data-i18n="nav.product">Product</a>
             <a href="#about" data-i18n="nav.about">About</a>
             <a href="#support" data-i18n="nav.support">Support</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
           </nav>
           <div class="site-footer__legal">
             <a href="terms.html" data-i18n="footer.terms">Terms and Conditions</a>
@@ -617,6 +687,7 @@
     <script src="js/nav.js" defer></script>
     <script src="js/i18n.js" defer></script>
     <script src="js/pricing.js" defer></script>
+    <script src="js/tour.js" defer></script>
     <script src="js/motion.js" defer></script>
   </body>
 </html>
