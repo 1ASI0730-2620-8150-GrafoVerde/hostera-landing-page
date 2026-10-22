@@ -124,6 +124,7 @@ const translations = {
     "contact.title": "Talk to the people building Hostera.",
     "contact.lede":
       "Tell us how your hotel works today. We answer every message and use it to shape what we build next.",
+    "contact.email.label": "Write to us",
     "contact.form.label": "Send us a message",
     "contact.form.value": "Contact form",
     "contact.github.label": "Follow the project",
@@ -327,6 +328,7 @@ const translations = {
     "contact.title": "Habla con quienes construyen Hostera.",
     "contact.lede":
       "Cuéntanos cómo funciona tu hotel hoy. Respondemos cada mensaje y lo usamos para decidir qué construir después.",
+    "contact.email.label": "Escríbenos",
     "contact.form.label": "Envíanos un mensaje",
     "contact.form.value": "Formulario de contacto",
     "contact.github.label": "Sigue el proyecto",
