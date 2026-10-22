@@ -121,15 +121,6 @@ const translations = {
     "tour.access.title": "Access control",
     "tour.access.body": "Issue, replace and revoke RFID key cards for guests and staff.",
     "tour.access.alt": "Hostera access control list of RFID credentials with their validity and status",
-    "contact.title": "Talk to the people building Hostera.",
-    "contact.lede":
-      "Tell us how your hotel works today. We answer every message and use it to shape what we build next.",
-    "contact.email.label": "Write to us",
-    "contact.form.label": "Send us a message",
-    "contact.form.value": "Contact form",
-    "contact.github.label": "Follow the project",
-    "contact.newTab": "(opens in a new tab)",
-    "nav.contact": "Contact",
     "team.title": "The team building Hostera.",
     "team.lede":
       "Five software engineers united by a simple idea: make hotel operations clearer, more connected and more human.",
@@ -201,7 +192,7 @@ const translations = {
       "We may update these terms as Hostera grows. The date at the top of this page shows the current version. Continued use of the site after a change means you accept the updated terms.",
     "terms.h.contact": "10. Contact",
     "terms.p.contact":
-      "Questions about these terms or Hostera can be sent through the Talk to sales form.",
+      "Questions about these terms or Hostera can be sent through the Talk to sales form or by email to hostera.grafoverde@gmail.com.",
   },
   es: {
     "meta.title": "Hostera | Operación hotelera, conectada",
@@ -325,15 +316,6 @@ const translations = {
     "tour.access.title": "Control de accesos",
     "tour.access.body": "Emite, reemplaza y revoca tarjetas RFID de huéspedes y personal.",
     "tour.access.alt": "Credenciales RFID en Hostera con su vigencia y su estado",
-    "contact.title": "Habla con quienes construyen Hostera.",
-    "contact.lede":
-      "Cuéntanos cómo funciona tu hotel hoy. Respondemos cada mensaje y lo usamos para decidir qué construir después.",
-    "contact.email.label": "Escríbenos",
-    "contact.form.label": "Envíanos un mensaje",
-    "contact.form.value": "Formulario de contacto",
-    "contact.github.label": "Sigue el proyecto",
-    "contact.newTab": "(se abre en una pestaña nueva)",
-    "nav.contact": "Contacto",
     "team.title": "El equipo que construye Hostera.",
     "team.lede":
       "Cinco ingenieros de software unidos por una idea simple: hacer que la operación hotelera sea más clara, conectada y humana.",
@@ -406,7 +388,7 @@ const translations = {
       "Podemos actualizar estos términos a medida que Hostera crece. La fecha al inicio de esta página indica la versión vigente. Seguir usando el sitio después de un cambio significa que aceptas los términos actualizados.",
     "terms.h.contact": "10. Contacto",
     "terms.p.contact":
-      "Las preguntas sobre estos términos o sobre Hostera se pueden enviar con el formulario Hablar con ventas.",
+      "Las preguntas sobre estos términos o sobre Hostera se pueden enviar con el formulario Hablar con ventas o al correo hostera.grafoverde@gmail.com.",
   },
 };
 
