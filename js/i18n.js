@@ -107,8 +107,28 @@ const translations = {
     "product.title": "Every part of your hotel, working together.",
     "product.lede":
       "Reservations, rooms, inventory and access stay connected so your team can work with clarity every day.",
-    "product.play": "Discover Hostera",
-    "product.hint": "See how it works in daily hotel operations",
+    "product.demo": "Try the live demo, no sign-up needed",
+    "tour.label": "Product areas",
+    "tour.bookings.title": "Bookings",
+    "tour.bookings.body": "Find any stay by guest or code and see what is still unpaid.",
+    "tour.bookings.alt": "Hostera bookings list with guests, stay dates, rooms, booking status and payment status",
+    "tour.rooms.title": "Rooms",
+    "tour.rooms.body": "See which rooms are free, booked or out of service for the week.",
+    "tour.rooms.alt": "Hostera room availability grid for the next seven days",
+    "tour.inventory.title": "Inventory",
+    "tour.inventory.body": "Know what is running low before housekeeping runs out.",
+    "tour.inventory.alt": "Hostera inventory list with stock on hand and low-stock warnings",
+    "tour.access.title": "Access control",
+    "tour.access.body": "Issue, replace and revoke RFID key cards for guests and staff.",
+    "tour.access.alt": "Hostera access control list of RFID credentials with their validity and status",
+    "contact.title": "Talk to the people building Hostera.",
+    "contact.lede":
+      "Tell us how your hotel works today. We answer every message and use it to shape what we build next.",
+    "contact.form.label": "Send us a message",
+    "contact.form.value": "Contact form",
+    "contact.github.label": "Follow the project",
+    "contact.newTab": "(opens in a new tab)",
+    "nav.contact": "Contact",
     "team.title": "The team building Hostera.",
     "team.lede":
       "Five software engineers united by a simple idea: make hotel operations clearer, more connected and more human.",
@@ -146,7 +166,7 @@ const translations = {
     "terms.meta.description":
       "Terms that govern use of the Hostera landing page and Hostera services published by Grafo Verde.",
     "terms.title": "Terms and Conditions",
-    "terms.updated": "Last updated: 16 September 2026",
+    "terms.updated": "Last updated: 20 October 2026",
     "terms.intro":
       "These terms govern access to the Hostera website and the Hostera hotel-operations product published by Grafo Verde. By using this site you agree to them. If you do not agree, do not use the site or the product.",
     "terms.h.who": "1. Publisher",
@@ -167,10 +187,18 @@ const translations = {
     "terms.h.data": "6. Information you send us",
     "terms.p.data":
       "If you submit the sales form, we use the name, organization, and message you provide to follow up about Hostera. Do not send sensitive personal data through that form. We keep that information only as long as needed to respond.",
-    "terms.h.changes": "7. Changes",
+        "terms.h.privacy": "7. Privacy and personal data",
+    "terms.p.privacy":
+      "You can read this site without creating an account. The only personal information we receive is what you type into the sales form: your name, hotel or group, and message. The site saves your language choice in your browser and loads its fonts and animation scripts from a public content delivery network, which receives your IP address as any web request does. We do not use advertising cookies. Under Peruvian Law 29733 on personal data protection, you may ask us to access, correct, or delete your information through the Talk to sales form.",
+    "terms.h.ethics": "8. Ethics and professional responsibility",
+    "terms.p.ethics":
+      "Grafo Verde builds Hostera following the ACM/IEEE-CS Software Engineering Code of Ethics and Professional Practice and the Code of Ethics of the Colegio de Ingenieros del Perú (CIP).",
+    "terms.p.ethics2":
+      "In practice, we act in the interest of the hotels and people who use Hostera, describe the product honestly, protect the information entrusted to us, and take responsibility for our work. The current version is in development: the application uses demonstration data and RFID card encoding is simulated. We state these limits so that no one relies on them for real operations, and we correct errors when we find them.",
+"terms.h.changes": "9. Changes",
     "terms.p.changes":
       "We may update these terms as Hostera grows. The date at the top of this page shows the current version. Continued use of the site after a change means you accept the updated terms.",
-    "terms.h.contact": "8. Contact",
+    "terms.h.contact": "10. Contact",
     "terms.p.contact":
       "Questions about these terms or Hostera can be sent through the Talk to sales form.",
   },
@@ -282,8 +310,28 @@ const translations = {
     "product.title": "Todo tu hotel, trabajando en conjunto.",
     "product.lede":
       "Reservas, habitaciones, inventario y accesos conectados para que tu equipo trabaje con claridad cada día.",
-    "product.play": "Descubre Hostera",
-    "product.hint": "Mira cómo funciona en la operación diaria",
+    "product.demo": "Prueba la demo en vivo, sin registrarte",
+    "tour.label": "Áreas del producto",
+    "tour.bookings.title": "Reservas",
+    "tour.bookings.body": "Encuentra cualquier estadía por huésped o código y mira qué falta cobrar.",
+    "tour.bookings.alt": "Listado de reservas de Hostera con huéspedes, fechas, habitaciones, estado de la reserva y estado del pago",
+    "tour.rooms.title": "Habitaciones",
+    "tour.rooms.body": "Mira qué habitaciones están libres, reservadas o fuera de servicio en la semana.",
+    "tour.rooms.alt": "Disponibilidad de habitaciones de Hostera para los próximos siete días",
+    "tour.inventory.title": "Inventario",
+    "tour.inventory.body": "Entérate de lo que se está acabando antes de que le falte a housekeeping.",
+    "tour.inventory.alt": "Inventario de Hostera con existencias y alertas de stock bajo",
+    "tour.access.title": "Control de accesos",
+    "tour.access.body": "Emite, reemplaza y revoca tarjetas RFID de huéspedes y personal.",
+    "tour.access.alt": "Credenciales RFID en Hostera con su vigencia y su estado",
+    "contact.title": "Habla con quienes construyen Hostera.",
+    "contact.lede":
+      "Cuéntanos cómo funciona tu hotel hoy. Respondemos cada mensaje y lo usamos para decidir qué construir después.",
+    "contact.form.label": "Envíanos un mensaje",
+    "contact.form.value": "Formulario de contacto",
+    "contact.github.label": "Sigue el proyecto",
+    "contact.newTab": "(se abre en una pestaña nueva)",
+    "nav.contact": "Contacto",
     "team.title": "El equipo que construye Hostera.",
     "team.lede":
       "Cinco ingenieros de software unidos por una idea simple: hacer que la operación hotelera sea más clara, conectada y humana.",
@@ -322,7 +370,7 @@ const translations = {
     "terms.meta.description":
       "Términos que rigen el uso de la página de Hostera y de los servicios Hostera publicados por Grafo Verde.",
     "terms.title": "Términos y condiciones",
-    "terms.updated": "Última actualización: 16 de septiembre de 2026",
+    "terms.updated": "Última actualización: 20 de octubre de 2026",
     "terms.intro":
       "Estos términos rigen el acceso al sitio de Hostera y al producto de operación hotelera Hostera publicado por Grafo Verde. Al usar este sitio aceptas estos términos. Si no estás de acuerdo, no uses el sitio ni el producto.",
     "terms.h.who": "1. Editor",
@@ -343,10 +391,18 @@ const translations = {
     "terms.h.data": "6. Información que nos envías",
     "terms.p.data":
       "Si envías el formulario de ventas, usamos el nombre, la organización y el mensaje para dar seguimiento sobre Hostera. No envíes datos personales sensibles por ese formulario. Conservamos esa información solo el tiempo necesario para responder.",
-    "terms.h.changes": "7. Cambios",
+        "terms.h.privacy": "7. Privacidad y datos personales",
+    "terms.p.privacy":
+      "Puedes leer este sitio sin crear una cuenta. La única información personal que recibimos es la que escribes en el formulario de ventas: tu nombre, tu hotel o grupo y tu mensaje. El sitio guarda tu elección de idioma en tu navegador y carga sus tipografías y scripts de animación desde una red pública de distribución de contenido, que recibe tu dirección IP como cualquier solicitud web. No usamos cookies publicitarias. Según la Ley N.º 29733, Ley de Protección de Datos Personales del Perú, puedes pedirnos acceder a tu información, corregirla o eliminarla con el formulario Hablar con ventas.",
+    "terms.h.ethics": "8. Ética y responsabilidad profesional",
+    "terms.p.ethics":
+      "Grafo Verde desarrolla Hostera siguiendo el Código de Ética y Práctica Profesional de Ingeniería de Software de ACM/IEEE-CS y el Código de Ética del Colegio de Ingenieros del Perú (CIP).",
+    "terms.p.ethics2":
+      "En la práctica, actuamos en beneficio de los hoteles y de las personas que usan Hostera, describimos el producto con honestidad, protegemos la información que se nos confía y asumimos la responsabilidad de nuestro trabajo. La versión actual está en desarrollo: la aplicación usa datos de demostración y la codificación de tarjetas RFID es simulada. Indicamos estos límites para que nadie dependa de ellos en una operación real, y corregimos los errores cuando los encontramos.",
+"terms.h.changes": "9. Cambios",
     "terms.p.changes":
       "Podemos actualizar estos términos a medida que Hostera crece. La fecha al inicio de esta página indica la versión vigente. Seguir usando el sitio después de un cambio significa que aceptas los términos actualizados.",
-    "terms.h.contact": "8. Contacto",
+    "terms.h.contact": "10. Contacto",
     "terms.p.contact":
       "Las preguntas sobre estos términos o sobre Hostera se pueden enviar con el formulario Hablar con ventas.",
   },

@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - 2026-10-22
+
+### Added
+
+- A product tour in the Product section with screenshots of the bookings, rooms, inventory and access control screens of the deployed application, in place of the empty video card.
+- A link to try the live demo of the application.
+- A Contact section with the contact form and the Grafo Verde GitHub organization, linked from the header and footer navigation of every page.
+
+### Changed
+
+- The terms and conditions add a privacy and personal data section and an ethics and professional responsibility section, in English and Spanish.
+
 ## [0.5.0] - 2026-10-06
 
 ### Added
