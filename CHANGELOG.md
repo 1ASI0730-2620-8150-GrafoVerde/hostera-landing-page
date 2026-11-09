@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- The RFID guest access panel describes how key cards and readers work with rooms and reservations, with three highlights, in English and Spanish.
+- Each benefit card lists two detail points.
+
+### Changed
+
+- The RFID guest access photo is centered on the key card and reader, with sharper focus.
+- The benefit cards share the height of the RFID panel, drop the empty gap between icon and text, and stack on tablet and mobile.
+
 ## [0.9.0] - 2026-10-22
 
 ### Changed
