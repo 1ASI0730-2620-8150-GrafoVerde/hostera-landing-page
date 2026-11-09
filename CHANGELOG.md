@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - The RFID guest access panel describes how key cards and readers work with rooms and reservations, with three highlights, in English and Spanish.
 - Each benefit card lists two detail points.
+- A Privacy Policy page, in English and Spanish, linked from the footer of every page next to Terms and Conditions.
 
 ### Changed
 
