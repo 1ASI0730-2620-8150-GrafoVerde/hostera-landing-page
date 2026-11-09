@@ -6,68 +6,69 @@
 }
 
 .sales {
-  width: min(948px, 100%);
+  width: min(560px, 100%);
   display: flex;
   justify-content: center;
 }
 
 .sales__panel {
   width: 100%;
-  padding: var(--spacing-16);
+  padding: var(--spacing-12) var(--spacing-12) var(--spacing-8);
   border: 1px solid var(--md-sys-color-outline-variant);
   border-radius: var(--md-sys-shape-corner-large);
 }
 
 .sales__title {
-  margin: 0 0 var(--spacing-4);
-  font-size: clamp(32px, 5vw, 56px);
+  margin: 0 0 var(--spacing-3);
+  font-size: clamp(28px, 3.2vw, 36px);
   font-weight: 600;
   letter-spacing: -0.03em;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .sales__lede {
-  max-width: 38ch;
-  margin: 0 0 clamp(32px, 5vw, 56px);
+  margin: 0 0 var(--spacing-8);
   color: var(--md-sys-color-on-surface-variant);
-  font-size: clamp(18px, 2.7vw, 30px);
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .sales__form {
   display: flex;
   flex-direction: column;
-  gap: clamp(20px, 3vw, 36px);
+  gap: 20px;
 }
 
 .sales__form label {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-3);
-  font-size: clamp(16px, 2.4vw, 28px);
+  gap: var(--spacing-2);
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 20px;
 }
 
 .sales__form input,
 .sales__form textarea {
   width: 100%;
-  padding: var(--spacing-3) var(--spacing-4);
+  padding: 10px 14px;
   border: 1px solid var(--md-sys-color-outline-variant);
   border-radius: var(--md-sys-shape-corner-medium);
   background: var(--md-sys-color-surface);
   color: var(--md-sys-color-on-surface);
   caret-color: var(--md-sys-color-primary);
   font: inherit;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .sales__form input {
-  min-height: clamp(56px, 8.5vw, 92px);
+  min-height: 46px;
 }
 
 .sales__form textarea {
-  min-height: clamp(160px, 20vw, 220px);
+  min-height: 128px;
   resize: vertical;
 }
 
@@ -84,14 +85,15 @@
 
 .sales__form button {
   align-self: flex-start;
-  min-height: clamp(56px, 8.5vw, 92px);
-  padding: 0 clamp(24px, 4vw, 44px);
+  min-height: 48px;
+  margin-top: var(--spacing-1);
+  padding: 0 var(--spacing-6);
   border: 0;
   border-radius: var(--md-sys-shape-corner-full);
   background: var(--md-sys-color-primary);
   color: var(--md-sys-color-on-primary);
   font: inherit;
-  font-size: clamp(18px, 2.4vw, 28px);
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -107,6 +109,7 @@
 
 .sales__thanks {
   margin: 0;
+  font-size: 14px;
   color: var(--md-sys-color-primary);
   font-weight: 500;
 }

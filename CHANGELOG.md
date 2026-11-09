@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The benefit cards share the height of the RFID panel, drop the empty gap between icon and text, and stack on tablet and mobile.
 - The team photos of Mateo, Juan and José share the framing, background and lighting of the rest of the team.
 - The closing section button reads "Get started" ("Empezar ahora" in Spanish) instead of "Explore Starter".
+- The sales form page is titled "Contact us" ("Contáctanos" in Spanish), and its submit button reads "Send message" ("Enviar mensaje").
+- The sales form is narrower, with smaller text, fields and button.
 
 ### Removed
 
