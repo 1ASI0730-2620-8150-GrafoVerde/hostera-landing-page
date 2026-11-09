@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The RFID guest access photo is centered on the key card and reader, with sharper focus.
 - The benefit cards share the height of the RFID panel, drop the empty gap between icon and text, and stack on tablet and mobile.
 - The team photos of Mateo, Juan and José share the framing, background and lighting of the rest of the team.
+- The closing section button reads "Get started" ("Empezar ahora" in Spanish) instead of "Explore Starter".
 
 ### Removed
 
