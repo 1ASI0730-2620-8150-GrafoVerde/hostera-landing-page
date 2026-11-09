@@ -52,13 +52,22 @@ const translations = {
     "benefits.lede":
       "Coordinate occupancy, room readiness, inventory and guest access without switching between tools.",
     "benefits.media": "RFID guest access, built for hospitality",
-    "benefits.mediaAlt": "Hostera guest access interface for hospitality RFID readers",
+    "benefits.mediaBody":
+      "Link each key card to a room and its reservation, and manage every reader from the same place you run the property.",
+    "benefits.mediaAlt": "Hostera room key card next to an RFID reader on a stone counter",
+    "benefits.chip1": "Key cards linked to rooms",
+    "benefits.chip2": "Readers by property",
+    "benefits.chip3": "Access tied to reservations",
     "benefits.inventory.title": "Centralized inventory",
     "benefits.inventory.body":
       "Track stock by property and automatically flag critical shortages.",
+    "benefits.inventory.point1": "Stock levels for each property",
+    "benefits.inventory.point2": "Alerts before supplies run out",
     "benefits.access.title": "Access controls by property",
     "benefits.access.body":
       "Give staff access to the properties they need without exposing the rest.",
+    "benefits.access.point1": "Permissions assigned by role",
+    "benefits.access.point2": "Each property kept separate",
     "workflow.title": "Get every hotel ready to run in four steps.",
     "workflow.lede":
       "Add your hotels, set up the team, connect access and inventory, then start operating.",
@@ -247,13 +256,22 @@ const translations = {
     "benefits.title": "La operación diaria, conectada en cada hotel.",
     "benefits.lede":
       "Coordina la ocupación, el estado de las habitaciones, el inventario y los accesos sin cambiar entre herramientas.",
-    "benefits.media": "Acceso RFID para huéspedes, hecho tangible",
-    "benefits.mediaAlt": "Interfaz de acceso de huéspedes Hostera para lectores RFID",
+    "benefits.media": "Acceso RFID para huéspedes, pensado para hoteles",
+    "benefits.mediaBody":
+      "Vincula cada tarjeta a una habitación y su reserva, y gestiona cada lector desde el mismo lugar donde operas el hotel.",
+    "benefits.mediaAlt": "Tarjeta de habitación Hostera junto a un lector RFID sobre un mostrador de piedra",
+    "benefits.chip1": "Tarjetas vinculadas a habitaciones",
+    "benefits.chip2": "Lectores por hotel",
+    "benefits.chip3": "Accesos ligados a reservas",
     "benefits.inventory.title": "Inventario centralizado",
     "benefits.inventory.body":
       "Controla las existencias de cada hotel y detecta faltantes críticos automáticamente.",
+    "benefits.inventory.point1": "Existencias de cada hotel",
+    "benefits.inventory.point2": "Alertas antes de quedarte sin insumos",
     "benefits.access.title": "Permisos por hotel",
     "benefits.access.body": "Da al personal el acceso necesario sin exponer todos los hoteles.",
+    "benefits.access.point1": "Permisos asignados por rol",
+    "benefits.access.point2": "Cada hotel por separado",
     "workflow.title": "Pon cada hotel en marcha en cuatro pasos.",
     "workflow.lede":
       "Registra tus hoteles, configura el equipo, conecta accesos e inventario y empieza a operar.",
