@@ -19,9 +19,10 @@ const translations = {
     "nav.menu": "Open navigation menu",
     "cta.login": "Sign in",
     "cta.starter": "Explore Starter",
+    "cta.getStarted": "Get started",
     "cta.professional": "Explore Professional",
     "cta.sales": "Talk to sales",
-    "sales.page.title": "Talk to sales | Hostera",
+    "sales.page.title": "Contact us | Hostera",
     "sales.page.description": "Tell Hostera about your hotel group and discuss the Enterprise plan.",
     "hero.eyebrow": "HOTEL OPERATIONS, CONNECTED",
     "hero.title": "Run your whole hotel operation from one place.",
@@ -52,13 +53,22 @@ const translations = {
     "benefits.lede":
       "Coordinate occupancy, room readiness, inventory and guest access without switching between tools.",
     "benefits.media": "RFID guest access, built for hospitality",
-    "benefits.mediaAlt": "Hostera guest access interface for hospitality RFID readers",
+    "benefits.mediaBody":
+      "Link each key card to a room and its reservation, and manage every reader from the same place you run the property.",
+    "benefits.mediaAlt": "Hostera room key card next to an RFID reader on a stone counter",
+    "benefits.chip1": "Key cards linked to rooms",
+    "benefits.chip2": "Readers by property",
+    "benefits.chip3": "Access tied to reservations",
     "benefits.inventory.title": "Centralized inventory",
     "benefits.inventory.body":
       "Track stock by property and automatically flag critical shortages.",
+    "benefits.inventory.point1": "Stock levels for each property",
+    "benefits.inventory.point2": "Alerts before supplies run out",
     "benefits.access.title": "Access controls by property",
     "benefits.access.body":
       "Give staff access to the properties they need without exposing the rest.",
+    "benefits.access.point1": "Permissions assigned by role",
+    "benefits.access.point2": "Each property kept separate",
     "workflow.title": "Get every hotel ready to run in four steps.",
     "workflow.lede":
       "Add your hotels, set up the team, connect access and inventory, then start operating.",
@@ -145,14 +155,16 @@ const translations = {
     "faq.a3": "Yes. Hostera is available in English and Latin American Spanish.",
     "closing.title": "Bring every property into one view.",
     "closing.lede": "Start with one hotel or choose the plan built for your operating scale.",
-    "sales.title": "Talk to sales",
+    "sales.title": "Contact us",
     "sales.lede": "Tell us about your hotel group and we will follow up about the Enterprise path.",
     "sales.name": "Name",
     "sales.org": "Hotel or group",
     "sales.message": "Message",
+    "sales.submit": "Send message",
     "sales.thanks": "Thanks. A Hostera teammate will follow up.",
     "footer.tagline": "Hotel operations, connected.",
     "footer.terms": "Terms and Conditions",
+    "footer.privacy": "Privacy Policy",
     "footer.copy": "© 2026 Grafo Verde. All rights reserved.",
     "terms.meta.title": "Terms and Conditions | Hostera",
     "terms.meta.description":
@@ -193,6 +205,41 @@ const translations = {
     "terms.h.contact": "10. Contact",
     "terms.p.contact":
       "Questions about these terms or Hostera can be sent through the Talk to sales form or by email to hostera.grafoverde@gmail.com.",
+    "privacy.meta.title": "Privacy Policy | Hostera",
+    "privacy.meta.description":
+      "How the Hostera website by Grafo Verde handles your information.",
+    "privacy.meta.keywords": "Hostera privacy policy, personal data, Grafo Verde",
+    "privacy.title": "Privacy Policy",
+    "privacy.updated": "Last updated: 9 November 2026",
+    "privacy.intro":
+      "This policy explains what information the Hostera website collects, why, and what you can do about it. We collect as little as possible.",
+    "privacy.h.who": "1. Who is responsible",
+    "privacy.p.who":
+      "This website is published by Grafo Verde, the team that builds Hostera. You can reach us at hostera.grafoverde@gmail.com.",
+    "privacy.h.scope": "2. What this policy covers",
+    "privacy.p.scope":
+      "This policy covers this website: the home page, the contact page, the terms, and this policy. The Hostera application you open with Sign in or Get started is a separate service and is not covered here.",
+    "privacy.h.collect": "3. Information we collect",
+    "privacy.p.collect":
+      "You can read this site without creating an account or giving us any personal information. The contact form asks for your name, hotel or group, and a message. In the current version of the site, that form does not send what you type to us: it stays in your browser and is cleared when you submit it. If you write to us by email, we receive your email address and whatever you include in the message.",
+    "privacy.h.browser": "4. Information stored in your browser",
+    "privacy.p.browser":
+      "The site saves your language choice, English or Spanish, in your browser's local storage so the next page opens in the same language. It does not use cookies, analytics, or advertising trackers. You can delete the saved language at any time by clearing your browser's site data.",
+    "privacy.h.third": "5. Services that receive your requests",
+    "privacy.p.third":
+      "The site is hosted on GitHub Pages and loads its fonts and animation scripts from the jsDelivr content delivery network. Like any website you visit, these services receive technical data such as your IP address and browser type to deliver the pages. They handle that data under their own privacy policies.",
+    "privacy.h.use": "6. How we use and keep your information",
+    "privacy.p.use":
+      "We use the information you send us by email only to answer you and to talk about Hostera. We do not sell it, share it for advertising, or use it to build profiles. We keep it only as long as needed to respond and then delete it.",
+    "privacy.h.rights": "7. Your rights",
+    "privacy.p.rights":
+      "Under Peruvian Law 29733 on personal data protection, you can ask us to access, correct, or delete your personal information, or object to its use. Write to hostera.grafoverde@gmail.com and we will reply as soon as we can.",
+    "privacy.h.changes": "8. Changes",
+    "privacy.p.changes":
+      "We may update this policy as Hostera grows, for example if the contact form starts sending messages. The date at the top of this page shows the current version.",
+    "privacy.h.contact": "9. Contact",
+    "privacy.p.contact":
+      "Questions about this policy can be sent to hostera.grafoverde@gmail.com.",
   },
   es: {
     "meta.title": "Hostera | Operación hotelera, conectada",
@@ -214,9 +261,10 @@ const translations = {
     "nav.menu": "Abrir menú de navegación",
     "cta.login": "Iniciar sesión",
     "cta.starter": "Explorar Starter",
+    "cta.getStarted": "Empezar ahora",
     "cta.professional": "Ver plan Profesional",
     "cta.sales": "Hablar con ventas",
-    "sales.page.title": "Hablar con ventas | Hostera",
+    "sales.page.title": "Contáctanos | Hostera",
     "sales.page.description": "Cuéntanos sobre tu grupo hotelero y conversemos sobre el plan Empresarial.",
     "hero.eyebrow": "OPERACIÓN HOTELERA, CONECTADA",
     "hero.title": "Gestiona todo tu hotel desde un solo lugar.",
@@ -247,13 +295,22 @@ const translations = {
     "benefits.title": "La operación diaria, conectada en cada hotel.",
     "benefits.lede":
       "Coordina la ocupación, el estado de las habitaciones, el inventario y los accesos sin cambiar entre herramientas.",
-    "benefits.media": "Acceso RFID para huéspedes, hecho tangible",
-    "benefits.mediaAlt": "Interfaz de acceso de huéspedes Hostera para lectores RFID",
+    "benefits.media": "Acceso RFID para huéspedes, pensado para hoteles",
+    "benefits.mediaBody":
+      "Vincula cada tarjeta a una habitación y su reserva, y gestiona cada lector desde el mismo lugar donde operas el hotel.",
+    "benefits.mediaAlt": "Tarjeta de habitación Hostera junto a un lector RFID sobre un mostrador de piedra",
+    "benefits.chip1": "Tarjetas vinculadas a habitaciones",
+    "benefits.chip2": "Lectores por hotel",
+    "benefits.chip3": "Accesos ligados a reservas",
     "benefits.inventory.title": "Inventario centralizado",
     "benefits.inventory.body":
       "Controla las existencias de cada hotel y detecta faltantes críticos automáticamente.",
+    "benefits.inventory.point1": "Existencias de cada hotel",
+    "benefits.inventory.point2": "Alertas antes de quedarte sin insumos",
     "benefits.access.title": "Permisos por hotel",
     "benefits.access.body": "Da al personal el acceso necesario sin exponer todos los hoteles.",
+    "benefits.access.point1": "Permisos asignados por rol",
+    "benefits.access.point2": "Cada hotel por separado",
     "workflow.title": "Pon cada hotel en marcha en cuatro pasos.",
     "workflow.lede":
       "Registra tus hoteles, configura el equipo, conecta accesos e inventario y empieza a operar.",
@@ -340,15 +397,17 @@ const translations = {
     "faq.a3": "Sí. Puedes usar Hostera en español latinoamericano o en inglés.",
     "closing.title": "Coordina todos tus hoteles desde un solo lugar.",
     "closing.lede": "Comienza con un hotel o elige el plan creado para la escala de tu operación.",
-    "sales.title": "Hablar con ventas",
+    "sales.title": "Contáctanos",
     "sales.lede":
       "Cuéntanos sobre tu grupo hotelero y te contactaremos sobre el camino Empresarial.",
     "sales.name": "Nombre",
     "sales.org": "Hotel o grupo",
     "sales.message": "Mensaje",
+    "sales.submit": "Enviar mensaje",
     "sales.thanks": "Gracias. Alguien de Hostera te contactará.",
     "footer.tagline": "Operación hotelera, conectada.",
     "footer.terms": "Términos y condiciones",
+    "footer.privacy": "Política de privacidad",
     "footer.copy": "© 2026 Grafo Verde. Todos los derechos reservados.",
     "terms.meta.title": "Términos y condiciones | Hostera",
     "terms.meta.description":
@@ -389,6 +448,42 @@ const translations = {
     "terms.h.contact": "10. Contacto",
     "terms.p.contact":
       "Las preguntas sobre estos términos o sobre Hostera se pueden enviar con el formulario Hablar con ventas o al correo hostera.grafoverde@gmail.com.",
+    "privacy.meta.title": "Política de privacidad | Hostera",
+    "privacy.meta.description":
+      "Cómo el sitio de Hostera de Grafo Verde trata tu información.",
+    "privacy.meta.keywords":
+      "política de privacidad de Hostera, datos personales, Grafo Verde",
+    "privacy.title": "Política de privacidad",
+    "privacy.updated": "Última actualización: 9 de noviembre de 2026",
+    "privacy.intro":
+      "Esta política explica qué información recoge el sitio de Hostera, para qué y qué puedes hacer al respecto. Recogemos lo mínimo posible.",
+    "privacy.h.who": "1. Responsable",
+    "privacy.p.who":
+      "Este sitio es publicado por Grafo Verde, el equipo que desarrolla Hostera. Puedes escribirnos a hostera.grafoverde@gmail.com.",
+    "privacy.h.scope": "2. Alcance de esta política",
+    "privacy.p.scope":
+      "Esta política cubre este sitio: la página de inicio, la página de contacto, los términos y esta política. La aplicación Hostera que abres con Iniciar sesión o Empezar ahora es un servicio aparte y no está cubierta aquí.",
+    "privacy.h.collect": "3. Información que recogemos",
+    "privacy.p.collect":
+      "Puedes leer este sitio sin crear una cuenta ni darnos información personal. El formulario de contacto pide tu nombre, tu hotel o grupo y un mensaje. En la versión actual del sitio, ese formulario no nos envía lo que escribes: se queda en tu navegador y se borra al enviarlo. Si nos escribes por correo, recibimos tu dirección de correo y lo que incluyas en el mensaje.",
+    "privacy.h.browser": "4. Información guardada en tu navegador",
+    "privacy.p.browser":
+      "El sitio guarda tu elección de idioma, inglés o español, en el almacenamiento local de tu navegador para que la siguiente página se abra en el mismo idioma. No usa cookies, analítica ni rastreadores publicitarios. Puedes borrar el idioma guardado cuando quieras eliminando los datos del sitio en tu navegador.",
+    "privacy.h.third": "5. Servicios que reciben tus solicitudes",
+    "privacy.p.third":
+      "El sitio está alojado en GitHub Pages y carga sus tipografías y scripts de animación desde la red de distribución de contenido jsDelivr. Como en cualquier sitio que visitas, estos servicios reciben datos técnicos como tu dirección IP y tu tipo de navegador para entregar las páginas. Tratan esos datos según sus propias políticas de privacidad.",
+    "privacy.h.use": "6. Cómo usamos y conservamos tu información",
+    "privacy.p.use":
+      "Usamos la información que nos envías por correo solo para responderte y conversar sobre Hostera. No la vendemos, no la compartimos con fines publicitarios ni la usamos para crear perfiles. La conservamos solo el tiempo necesario para responder y luego la eliminamos.",
+    "privacy.h.rights": "7. Tus derechos",
+    "privacy.p.rights":
+      "Según la Ley N.º 29733, Ley de Protección de Datos Personales del Perú, puedes pedirnos acceder a tu información personal, corregirla o eliminarla, u oponerte a su uso. Escríbenos a hostera.grafoverde@gmail.com y te responderemos lo antes posible.",
+    "privacy.h.changes": "8. Cambios",
+    "privacy.p.changes":
+      "Podemos actualizar esta política a medida que Hostera crece, por ejemplo si el formulario de contacto empieza a enviar mensajes. La fecha al inicio de esta página indica la versión vigente.",
+    "privacy.h.contact": "9. Contacto",
+    "privacy.p.contact":
+      "Las preguntas sobre esta política se pueden enviar a hostera.grafoverde@gmail.com.",
   },
 };
 

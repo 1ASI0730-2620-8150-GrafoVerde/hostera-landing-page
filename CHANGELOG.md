@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.0] - 2026-11-09
+
+### Added
+
+- The RFID guest access panel describes how key cards and readers work with rooms and reservations, with three highlights, in English and Spanish.
+- Each benefit card lists two detail points.
+- A Privacy Policy page, in English and Spanish, linked from the footer of every page next to Terms and Conditions.
+
+### Changed
+
+- The RFID guest access photo is centered on the key card and reader, with sharper focus.
+- The benefit cards share the height of the RFID panel, drop the empty gap between icon and text, and stack on tablet and mobile.
+- The team photos of Mateo, Juan and José share the framing, background and lighting of the rest of the team.
+- The closing section button reads "Get started" ("Empezar ahora" in Spanish) instead of "Explore Starter".
+- The sales form page is titled "Contact us" ("Contáctanos" in Spanish), and its submit button reads "Send message" ("Enviar mensaje").
+- The sales form is narrower, with smaller text, fields and button.
+
+### Removed
+
+- The "Talk to sales" button of the closing section, which now has a single call to action.
+
 ## [0.9.0] - 2026-10-22
 
 ### Changed
