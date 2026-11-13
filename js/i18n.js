@@ -119,7 +119,6 @@ const translations = {
       "Reservations, rooms, inventory and access stay connected so your team can work with clarity every day.",
     "product.demo": "Try the live demo, no sign-up needed",
     "product.play": "Discover Hostera",
-    "product.hint": "See how it works in daily hotel operations",
     "product.video": "Hostera product video",
     "tour.label": "Product areas",
     "tour.bookings.title": "Bookings",
@@ -138,7 +137,6 @@ const translations = {
     "team.lede":
       "Five software engineers united by a simple idea: make hotel operations clearer, more connected and more human.",
     "team.play": "Meet the team",
-    "team.hint": "Discover who is building Hostera and why",
     "team.video": "Hostera team video",
     "team.role": "Software Engineer",
     "team.mateo": "Builds accessible interfaces and dependable component systems.",
@@ -365,7 +363,6 @@ const translations = {
       "Reservas, habitaciones, inventario y accesos conectados para que tu equipo trabaje con claridad cada día.",
     "product.demo": "Prueba la demo en vivo, sin registrarte",
     "product.play": "Descubre Hostera",
-    "product.hint": "Mira cómo funciona en la operación diaria",
     "product.video": "Video del producto Hostera",
     "tour.label": "Áreas del producto",
     "tour.bookings.title": "Reservas",
@@ -384,7 +381,6 @@ const translations = {
     "team.lede":
       "Cinco ingenieros de software unidos por una idea simple: hacer que la operación hotelera sea más clara, conectada y humana.",
     "team.play": "Conoce al equipo",
-    "team.hint": "Descubre quiénes construyen Hostera y por qué",
     "team.video": "Video del equipo de Hostera",
     "team.role": "Ingeniero de software",
     "team.mateo": "Crea interfaces accesibles y sistemas de componentes confiables.",
@@ -537,13 +533,6 @@ const applyLanguage = (lang) => {
   document.querySelectorAll("[data-i18n-aria]").forEach((node) => {
     const value = pack[node.dataset.i18nAria];
     if (value != null) node.setAttribute("aria-label", value);
-  });
-
-  document.querySelectorAll("[data-i18n-embed-title]").forEach((node) => {
-    const value = pack[node.dataset.i18nEmbedTitle];
-    if (value == null) return;
-    node.dataset.embedTitle = value;
-    node.querySelector("iframe")?.setAttribute("title", value);
   });
 
   document.querySelectorAll("[data-lang]").forEach((control) => {
