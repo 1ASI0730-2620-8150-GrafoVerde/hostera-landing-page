@@ -147,6 +147,11 @@
     gap: 12px;
   }
 
+  .team__intro .media-card {
+    flex: none;
+    width: 100%;
+  }
+
   .team__title {
     font-size: 32px;
     line-height: 40px;
