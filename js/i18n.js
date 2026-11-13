@@ -118,6 +118,8 @@ const translations = {
     "product.lede":
       "Reservations, rooms, inventory and access stay connected so your team can work with clarity every day.",
     "product.demo": "Try the live demo, no sign-up needed",
+    "product.play": "Discover Hostera",
+    "product.video": "Hostera product video",
     "tour.label": "Product areas",
     "tour.bookings.title": "Bookings",
     "tour.bookings.body": "Find any stay by guest or code and see what is still unpaid.",
@@ -135,7 +137,7 @@ const translations = {
     "team.lede":
       "Five software engineers united by a simple idea: make hotel operations clearer, more connected and more human.",
     "team.play": "Meet the team",
-    "team.hint": "Discover who is building Hostera and why",
+    "team.video": "Hostera team video",
     "team.role": "Software Engineer",
     "team.mateo": "Builds accessible interfaces and dependable component systems.",
     "team.joaquin": "Designs robust APIs and reliable reservation services.",
@@ -360,6 +362,8 @@ const translations = {
     "product.lede":
       "Reservas, habitaciones, inventario y accesos conectados para que tu equipo trabaje con claridad cada día.",
     "product.demo": "Prueba la demo en vivo, sin registrarte",
+    "product.play": "Descubre Hostera",
+    "product.video": "Video del producto Hostera",
     "tour.label": "Áreas del producto",
     "tour.bookings.title": "Reservas",
     "tour.bookings.body": "Encuentra cualquier estadía por huésped o código y mira qué falta cobrar.",
@@ -377,7 +381,7 @@ const translations = {
     "team.lede":
       "Cinco ingenieros de software unidos por una idea simple: hacer que la operación hotelera sea más clara, conectada y humana.",
     "team.play": "Conoce al equipo",
-    "team.hint": "Descubre quiénes construyen Hostera y por qué",
+    "team.video": "Video del equipo de Hostera",
     "team.role": "Ingeniero de software",
     "team.mateo": "Crea interfaces accesibles y sistemas de componentes confiables.",
     "team.joaquin": "Diseña API sólidas y servicios de reservas confiables.",
