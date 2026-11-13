@@ -454,19 +454,37 @@
         </section>
         <section class="discover section-target" id="product" aria-labelledby="product-heading" tabindex="-1">
           <div class="discover__inner">
-            <div class="discover__copy">
-              <h2 class="discover__title" id="product-heading" data-i18n="product.title">Every part of your hotel, working together.</h2>
-              <p class="discover__lede" data-i18n="product.lede">
-                Reservations, rooms, inventory and access stay connected so your team can work with
-                clarity every day.
-              </p>
-              <a class="discover__demo" href="https://hostera-f4116.web.app/">
-                <span data-i18n="product.demo">Try the live demo, no sign-up needed</span>
-                <svg class="discover__demo-icon" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                  <path d="m12 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
+            <div class="discover__intro">
+              <div class="discover__copy">
+                <h2 class="discover__title" id="product-heading" data-i18n="product.title">Every part of your hotel, working together.</h2>
+                <p class="discover__lede" data-i18n="product.lede">
+                  Reservations, rooms, inventory and access stay connected so your team can work with
+                  clarity every day.
+                </p>
+                <a class="discover__demo" href="https://hostera-f4116.web.app/">
+                  <span data-i18n="product.demo">Try the live demo, no sign-up needed</span>
+                  <svg class="discover__demo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="m12 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+              <div class="media-card" data-media-card>
+                <video preload="none" playsinline poster="public/videos/about-the-product-poster.webp" aria-label="Hostera product video" data-i18n-aria="product.video">
+                  <source src="public/videos/about-the-product.mp4" type="video/mp4" />
+                </video>
+                <button class="media-card__play" type="button" data-media-play>
+                  <span class="media-card__pill">
+                    <span class="media-card__play-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="media-card__play-label" data-i18n="product.play">Discover Hostera</span>
+                    <time class="media-card__duration" datetime="PT1M22S">1:22</time>
+                  </span>
+                </button>
+              </div>
             </div>
             <div class="tour" data-tour>
               <div class="tour__tabs" role="tablist" aria-label="Product areas" data-i18n-aria="tour.label">
@@ -515,16 +533,21 @@
                   more connected and more human.
                 </p>
               </div>
-              <div class="media-card media-card--team">
-                <div class="media-card__play">
-                  <span class="media-card__play-icon" aria-hidden="true">
-                    <svg width="28" height="28" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" fill="currentColor" />
-                    </svg>
+              <div class="media-card media-card--team" data-media-card>
+                <video preload="none" playsinline poster="public/videos/about-the-team-poster.webp" aria-label="Hostera team video" data-i18n-aria="team.video">
+                  <source src="public/videos/about-the-team.mp4" type="video/mp4" />
+                </video>
+                <button class="media-card__play" type="button" data-media-play>
+                  <span class="media-card__pill">
+                    <span class="media-card__play-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="media-card__play-label" data-i18n="team.play">Meet the team</span>
+                    <time class="media-card__duration" datetime="PT9M">9:00</time>
                   </span>
-                  <span class="media-card__play-label" data-i18n="team.play">Meet the team</span>
-                  <span class="media-card__play-hint" data-i18n="team.hint">Discover who is building Hostera and why</span>
-                </div>
+                </button>
               </div>
             </div>
             <div class="team__grid">
@@ -662,6 +685,7 @@
     <script src="js/i18n.js" defer></script>
     <script src="js/pricing.js" defer></script>
     <script src="js/tour.js" defer></script>
+    <script src="js/media.js" defer></script>
     <script src="js/motion.js" defer></script>
   </body>
 </html>
